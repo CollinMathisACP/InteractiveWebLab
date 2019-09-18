@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Lab5</title>
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+        <script src="js/java.js"></script>
+    </head>
+    
+    
+    
+    <body id="game">
+        <h1>Two Player Tic-Tac-Toe!</h1>
+        <p>Instructions: Pass the mouse back and forth between you and your<br>partner to trade turns. Click once for X, twice for O. If someone wins, press<br>the button at the bottom. Press the new game button to start over. Have fun!</p>
+        
+        <div>
+            <button id="square" onclick="move(this)">-</button>
+            <button id="square" onclick="move(this)">-</button>
+            <button id="square" onclick="move(this)">-</button>
+        </div>
+        
+        <div>
+            <button id="square" onclick="move(this)">-</button>
+            <button id="square" onclick="move(this)">-</button>
+            <button id="square" onclick="move(this)">-</button>
+        </div>
+        
+        <div>
+            <button id="square" onclick="move(this)">-</button>
+            <button id="square" onclick="move(this)">-</button>
+            <button id="square" onclick="move(this)">-</button>
+        </div>
+        
+        <button id="win" onclick="winner(this)">Press me if someone won!</button>
+        <button id="win" onclick="location.reload()">New Game</button>
+    </body>
+</html>

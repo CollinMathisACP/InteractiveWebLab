@@ -1,0 +1,17 @@
+div
+{
+    margin: 3px;
+}
+
+#square
+{
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    margin: 1px;
+}
+
+#win
+{
+    margin: 10px;
+}
